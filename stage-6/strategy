@@ -1,0 +1,22 @@
+Given a warrior
+  Given a direction
+    When there is a wall
+      Change direction
+    When there is a captive
+      Save the captive
+    When there is an enemy
+      Attack the enemy
+    When the path is clear
+      When taking damage and low on health
+        Walk backward
+      When at partial health and facing bacward
+        Rest up
+      When at full health
+        Walk forward
+
+
+A warrior is low on health when:
+- the warrior will die before backing out of combat
+
+A warrior is taking damage when:
+- the health for the current turn is less than the health for the previous turn
