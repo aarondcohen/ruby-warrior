@@ -1,8 +1,8 @@
 Given a warrior
-	When there is an enemy in front
-		Attack the enemy
-	When the path is clear
+  When there is an enemy in front
+    Attack the enemy
+  When the path is clear
     When at partial health
       Rest up
     When at full health
-		  Walk forward
+      Walk forward

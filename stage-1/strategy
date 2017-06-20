@@ -1,3 +1,3 @@
 Given a warrior
-	When the path is clear
-		Walk forward
+  When the path is clear
+    Walk forward
